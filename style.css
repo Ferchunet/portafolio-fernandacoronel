@@ -15,6 +15,7 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
   }
+
   *,
   *::before,
   *::after {
@@ -47,7 +48,7 @@
       /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
        background-size: 400% 400%; 
       animation: gradient 10s ease infinite; */
-      background: linear-gradient(-45deg, #c468d6, #bd116f, #9b8bc7, #683d52);
+      background: linear-gradient(-45deg, #9587e9, #e79cc5, #b09de4, #cba5e4);
        background-size: 400% 400%; 
       animation: gradient 15s ease infinite;
     background-attachment: fixed;
@@ -630,6 +631,36 @@ color: #000000;
   /*CERTIFICADOS*/
 .certificado{
   width: 100%;
-  display: flex;
-  background-color: #8669d4;
+  
+  
+  
+}
+.certificado h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.educacion{
+ display: inline-flex;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  left: 20%;
+}
+.curso{
+  width: 50%;
+  height: 30%;
+ 
+  margin-left: 40px;
+  
+}
+.curso img:hover{
+  width: 700px;
+
+  height: 100%;
+  transition: 4s;
+}
+.certificado .educacion .curso img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
 }
