@@ -230,16 +230,18 @@ right: 20%;
    
     .habilidades{
     display: flex;
+    position: relative;
+    bottom: 40%;
    }
     .habilidades .aos-init {
     width: 40%;
-    height: 600px;
-    font-size: 40px;
+    height: 400px;
+    font-size: 30px;
     
     }
     .habilidades .hability-item{
         position: relative;
-        top: 200px;
+        top: 100px;
     }
     .aos-init h3 {
         position: relative;
