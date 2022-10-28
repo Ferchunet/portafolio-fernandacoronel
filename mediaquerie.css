@@ -1,11 +1,36 @@
-@media (min-width:500px)and (max-width: 900px) {
+@media (min-width:350px)and (max-width: 1060px) {
     
-    .main img {
-width: 1000px;
-height: 150%;
-position: relative;
-right: 200px;
-top: -30%;
+ 
+    .proyectos{
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        top: -200px;
+        
+    }
+    .min {
+        width: 100%;
+       position: relative;
+       right: 10%;
+       height: 40%;
+    }
+    .min .h2 {
+    
+        text-align: center;
+        position: relative;
+        bottom: 200px;
+        right: 20%;
+        
+    }
+    .aos-init1{
+        width: 100%;
+        height: 70%;
+    }
+    .cproyecto{
+        width: 200px;
+        left: 20%;
+        bottom: 150px;
+      
     }
     .container {
       width: 100%;
@@ -16,13 +41,14 @@ top: -30%;
 
     .habilidades{
         position: relative;
-        top: -20%;
+        top: 10%;
 
     }
     .aos-init {
-        width: 600px;
-        height: 400px;
-        font-size: 30px;
+        width: 100%;
+        height: 80%;
+        font-size: 20px;
+     
    
     }
     .aos-init .hability-item{
@@ -37,26 +63,27 @@ top: -30%;
     }
     .history{
         position: relative;
-        bottom: 20%;
+        bottom: 0%;
         width: 70%;
-        font-size: 40px;
+        font-size: 20px;
         text-align: center;
         justify-content: center;
         align-items: center;
         position: relative;
-        left: 15%;
+        left: 25%;
+        top: 10%;
     }
     .certificado{
        
         position: relative;
-        bottom: 15%;
+        top: 30px;
     }
      .certificado .educacion {
       display: inline-table;
       width: 100%;
       position: relative;
-      font-size: 30px;
-    
+      font-size: 20px;
+    top: 15%;
    
     }
     .certificado h2 {
@@ -65,8 +92,8 @@ top: -30%;
     .certificado .educacion .curso {
         width: 100%;
         position: relative;
-        right: 28%;
-        margin-bottom: 80px;
+        right: 30%;
+        margin-bottom: 40px;
         text-align: center;
     }
     .certificado .educacion .curso img {
@@ -76,21 +103,28 @@ top: -30%;
 
     }
     .certificado .educacion .curso p {
-        width: 50%;
+        width: 70%;
+   
         position: relative;
-        left: 25%;
+        left: 12%;
+       
     }
 }
 
 
 /*400px  minimmo*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 350px) {
    .main{
     width: 100%;
    position: relative;
    bottom: 50%;
    
    } 
+.Cproyectos{
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+}
 .proyectos{
     width: 100%;
     display: inline-block;
@@ -98,9 +132,12 @@ top: -30%;
     top: -200px;
     left: 80px;
 }
-.Cproyectos .habilidades-title   {
+.min .h2 {
+
+    text-align: center;
     position: relative;
     bottom: 200px;
+    left: 20px;
 }
 .proyecto{
     width: 200px;
@@ -133,7 +170,7 @@ right: 20%;
 
     }
     .history{
-        font-size: 30px;
+        font-size: 20px;
         position: relative;
         bottom: 20%;
         width: 70%;
@@ -159,7 +196,7 @@ right: 20%;
         width: 100%;
         position: relative;
         right: 28%;
-        font-size: 20px;
+        font-size: 15px;
         margin-bottom: 80px;
         text-align: center;
     }
@@ -172,9 +209,9 @@ right: 20%;
 
     }
     .certificado .educacion .curso p {
-        width: 50%;
+        width: 90%;
         position: relative;
-        left: 15%;
+        
     }
     .certificado .educacion .curso h3{
         position: relative;
