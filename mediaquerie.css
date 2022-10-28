@@ -1,4 +1,4 @@
-@media (min-width:150px)and (max-width: 1060px) {
+@media (min-width:350px)and (max-width: 1060px) {
     
  
     .proyectos{
@@ -112,7 +112,44 @@
 }
 
 
+/*400px  minimmo*/
+@media screen and (max-width: 350px) {
+   .main{
+    width: 100%;
+   position: relative;
+   bottom: 50%;
+   
+   } 
+.Cproyectos{
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+}
+.proyectos{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: -200px;
+    left: 80px;
+}
+.min .h2 {
 
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    left: 20px;
+}
+.proyecto{
+    width: 200px;
+  
+}
+    .main img {
+    width: 0px;
+    height: 0px;
+position: relative;
+right: 20%;
+
+    }
     .container {
       width: 100%;
       height: 100%;
@@ -184,7 +221,6 @@
 
 
 /*maximo 2000px*/
-/*maximo 2000px*/
 @media (min-width:900px)and (max-width: 2000px)  {
  
 .min{
@@ -194,8 +230,6 @@
    
     .habilidades{
     display: flex;
-    position: relative;
-    bottom: 200px;
    }
     .habilidades .aos-init {
     width: 40%;
